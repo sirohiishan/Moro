@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Moro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter';
+            line-height: 1.6;
+            color: #1B1B1B;
+            background: #FFFFFF;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #FFFFFF;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #7998FF 0%, #FF7979 100%);
+            color: #FFFFFF;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .header p {
+            font-size: 1.1rem;
+            color: #ffffff;
+            font-weight: 500;
+        }
+        
+        .content {
+            padding: 40px 30px;
+        }
+        
+        .back-btn {
+            display: inline-block;
+            background: #7998FF;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+        }
+        
+        .back-btn:hover {
+            background: #FF7979;
+            transform: translateY(-2px);
+        }
+        
+        h2 {
+            color: #7998FF;
+            font-size: 1.5rem;
+            margin: 30px 0 15px 0;
+            font-weight: 600;
+        }
+        
+        h3 {
+            color: #1B1B1B;
+            font-size: 1.2rem;
+            margin: 25px 0 10px 0;
+            font-weight: 600;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #616161;
+        }
+        
+        ul {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            color: #616161;
+        }
+        
+        .highlight {
+            background: #FFFFFF;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #7998FF;
+            margin: 20px 0;
+        }
+        
+        .contact-info {
+            background: #FFFFFF;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 30px 0;
+            border: 2px solid #8F8F8F;
+        }
+        
+        .contact-info a {
+            color: #7998FF;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Privacy Policy</h1>
+            <p>Effective Date: September 2025 | Last Updated: September 2025</p>
+        </div>
+        
+        <div class="content">
+            <a href="index.html" class="back-btn">Back to Legal Documents</a>
+            
+            <h2>1. Introduction</h2>
+            <p>Welcome to Moro! This Privacy Policy explains how we collect, use, disclose, and protect your information when you use our productivity application. By using Moro, you agree to the collection and use of information in accordance with this policy.</p>
+            
+            <h2>2. Data Collected</h2>
+            
+            <h3>Personal Information</h3>
+            <ul>
+                <li><strong>Name and Email Address</strong>: When you create an account, we collect your name and email address for authentication and personalization</li>
+                <li><strong>Authentication Data</strong>: We use Firebase Authentication to securely manage your login credentials</li>
+                <li><strong>User Profile</strong>: Your display name and account preferences stored in Firestore</li>
+            </ul>
+            
+            <h3>Task and Content Data</h3>
+            <ul>
+                <li><strong>Task Content</strong>: The tasks, reminders, and notes you create in the app</li>
+                <li><strong>Task Metadata</strong>: Completion status, creation dates, scheduling information, and time settings</li>
+                <li><strong>Calendar Data</strong>: Your selected dates, task organization, and scheduling preferences</li>
+                <li><strong>Productivity Data</strong>: Monthly productivity scores and task completion statistics for widgets</li>
+            </ul>
+            
+            <h3>Local Device Data</h3>
+            <ul>
+                <li><strong>Widget Data</strong>: Productivity scores and task statistics cached locally for widget functionality</li>
+                <li><strong>Notification Data</strong>: Local notification settings and scheduled reminders</li>
+                <li><strong>App Preferences</strong>: User interface preferences and settings stored locally</li>
+            </ul>
+            
+            <h3>Firebase Services Data Collection</h3>
+            
+            <h3>Firebase Authentication</h3>
+            <ul>
+                <li><strong>User Credentials</strong>: Email addresses and authentication tokens</li>
+                <li><strong>Account Information</strong>: User IDs, creation timestamps, and login history</li>
+                <li><strong>Security Data</strong>: Authentication state and session management</li>
+            </ul>
+            
+            <h3>Cloud Firestore</h3>
+            <ul>
+                <li><strong>User Documents</strong>: Name, email, and account creation date</li>
+                <li><strong>Task Collections</strong>: All your tasks, reminders, and associated metadata</li>
+                <li><strong>User Preferences</strong>: App settings and customization data</li>
+            </ul>
+            
+            <div class="highlight">
+                <h3>Firebase Analytics (Disabled)</h3>
+                <ul>
+                    <li><strong>Note</strong>: Firebase Analytics is currently disabled in our app configuration</li>
+                    <li><strong>No Analytics Data</strong>: We do not collect analytics or usage tracking data</li>
+                    <li><strong>No User Behavior Tracking</strong>: We do not track how you use the app</li>
+                </ul>
+            </div>
+            
+            <div class="highlight">
+                <h3>Firebase Crashlytics (Not Enabled)</h3>
+                <ul>
+                    <li><strong>Note</strong>: Firebase Crashlytics is not enabled in our app</li>
+                    <li><strong>No Crash Reporting</strong>: We do not collect crash reports or error logs</li>
+                    <li><strong>No Performance Data</strong>: We do not collect app performance metrics</li>
+                    <li><strong>No Device Analytics</strong>: We do not collect device specifications for debugging</li>
+                </ul>
+            </div>
+            
+            <h2>3. Purpose of Collection</h2>
+            
+            <h3>Core App Functionality</h3>
+            <ul>
+                <li><strong>Task Management</strong>: Store, sync, and manage your tasks across devices</li>
+                <li><strong>User Authentication</strong>: Secure login and account management</li>
+                <li><strong>Data Synchronization</strong>: Keep your data consistent across all your devices</li>
+                <li><strong>Local Notifications</strong>: Send you reminders for scheduled tasks and important updates</li>
+                <li><strong>Widget Functionality</strong>: Display productivity statistics on your device's home screen</li>
+                <li><strong>Calendar Integration</strong>: Organize tasks by date and provide calendar views</li>
+                <li><strong>Productivity Tracking</strong>: Calculate and display monthly productivity scores</li>
+            </ul>
+            
+            <h3>Technical Operations</h3>
+            <ul>
+                <li><strong>Security</strong>: Protect your account and data from unauthorized access through Firebase Authentication</li>
+                <li><strong>Service Reliability</strong>: Ensure consistent service availability and performance through Firebase infrastructure</li>
+                <li><strong>Data Protection</strong>: Ensure your data is safely stored and recoverable through Firebase's infrastructure and redundancy systems</li>
+            </ul>
+            
+            <h3>User Experience</h3>
+            <ul>
+                <li><strong>Personalization</strong>: Customize the app experience based on your preferences</li>
+                <li><strong>Account Management</strong>: Maintain your user profile and app settings</li>
+                <li><strong>Task History</strong>: Provide historical view of your tasks with filtering options</li>
+                <li><strong>Monthly Analytics</strong>: Show productivity trends and task completion statistics</li>
+            </ul>
+            
+            <h2>4. Third-Party Sharing</h2>
+            
+            <h3>Firebase (Google LLC)</h3>
+            <ul>
+                <li><strong>Firebase Authentication</strong>: User authentication and account management</li>
+                <li><strong>Cloud Firestore</strong>: Secure cloud storage for your tasks and user data</li>
+                <li><strong>Firebase Services</strong>: Data processing and storage through Google's Firebase platform</li>
+                <li><strong>Data Location</strong>: Your data may be stored on Google's servers worldwide</li>
+                <li><strong>Google's Privacy Policy</strong>: Firebase services are subject to Google's Privacy Policy</li>
+            </ul>
+            
+            <h3>Limited Data Sharing</h3>
+            <p>We do NOT share your data with:</p>
+            <ul>
+                <li>Third-party advertisers</li>
+                <li>Data brokers or marketing companies</li>
+                <li>Other apps or services</li>
+                <li>Analytics companies (analytics is disabled)</li>
+                <li>Marketing or promotional services</li>
+                <li>Social media platforms</li>
+            </ul>
+            
+            <h3>Required Sharing</h3>
+            <p>We may share your data only in these limited circumstances:</p>
+            <ul>
+                <li><strong>Legal Compliance</strong>: When required by law or legal process</li>
+                <li><strong>Service Providers</strong>: Firebase and other essential service providers</li>
+                <li><strong>Business Transfers</strong>: In connection with any merger or acquisition (with notice)</li>
+            </ul>
+            
+            <h2>5. Data Security and Storage</h2>
+            
+            <h3>Security Measures</h3>
+            <ul>
+                <li><strong>Encryption</strong>: All data is encrypted in transit and at rest through Firebase's security infrastructure</li>
+                <li><strong>Firebase Security</strong>: Google's enterprise-grade security infrastructure</li>
+                <li><strong>Access Controls</strong>: Strict access controls and authentication requirements</li>
+                <li><strong>Regular Updates</strong>: Regular security updates and monitoring</li>
+            </ul>
+            
+            <h3>Data Storage</h3>
+            <ul>
+                <li><strong>Cloud Storage</strong>: Your data is stored securely in Firebase's encrypted cloud database</li>
+                <li><strong>Local Storage</strong>: Temporary local storage for app functionality and caching</li>
+                <li><strong>Backup Systems</strong>: Firebase's infrastructure redundancy and data protection systems to prevent data loss</li>
+                <li><strong>Data Retention</strong>: Data retained only as long as necessary for service provision</li>
+            </ul>
+            
+            <h2>6. User Rights</h2>
+            
+            <h3>Access Rights</h3>
+            <ul>
+                <li><strong>View Your Data</strong>: Access all your tasks, account information, and app data through the app</li>
+                <li><strong>Account Information</strong>: View and update your profile information in Account Settings</li>
+                <li><strong>Task History</strong>: View all your tasks with filtering options (All Time, This Week, This Month, Last Month)</li>
+                <li><strong>Productivity Data</strong>: View your monthly productivity scores and task statistics</li>
+            </ul>
+            
+            <h3>Control Rights</h3>
+            <ul>
+                <li><strong>Update Information</strong>: Modify your name in Account Settings</li>
+                <li><strong>Change Password</strong>: Update your account password through the app</li>
+                <li><strong>Delete Account</strong>: Permanently delete your account and all associated data</li>
+                <li><strong>Data Correction</strong>: Correct any inaccurate personal information</li>
+                <li><strong>Notification Control</strong>: Manage local notification settings through your device</li>
+            </ul>
+            
+            <h3>Deletion Rights</h3>
+            <ul>
+                <li><strong>Account Deletion</strong>: Complete account deletion removes all your data from Firestore</li>
+                <li><strong>Data Deletion</strong>: All personal data permanently deleted immediately upon account deletion</li>
+                <li><strong>Local Data</strong>: All local data (widgets, notifications, cached data) cleared upon account deletion</li>
+                <li><strong>Firebase Data</strong>: All data removed from Firebase services immediately</li>
+            </ul>
+            
+            <div class="contact-info">
+                <h3>Contact for Rights</h3>
+                <p>To exercise your rights, contact us at: <a href="mailto:sirohi.ishan@icloud.com">sirohi.ishan@icloud.com</a></p>
+            </div>
+            
+            <h2>7. Data Retention</h2>
+            
+            <h3>Account Data</h3>
+            <ul>
+                <li><strong>Active Accounts</strong>: Data retained while your account is active</li>
+                <li><strong>Deleted Accounts</strong>: All data permanently deleted immediately upon account deletion</li>
+                <li><strong>No Data Retention</strong>: We do not retain any data after account deletion</li>
+            </ul>
+            
+            <h3>Task Data</h3>
+            <ul>
+                <li><strong>Synced Tasks</strong>: Stored in Firebase's encrypted cloud database until deleted by user</li>
+                <li><strong>Local Tasks</strong>: Stored on your device until synced or deleted</li>
+                <li><strong>Widget Data</strong>: Cached locally for widget functionality, cleared when account is deleted</li>
+            </ul>
+            
+            <h3>Local Data</h3>
+            <ul>
+                <li><strong>Notifications</strong>: Stored locally on your device, cleared when account is deleted</li>
+                <li><strong>Widget Cache</strong>: Productivity data cached for widgets, cleared when account is deleted</li>
+                <li><strong>App Preferences</strong>: Stored locally, cleared when account is deleted</li>
+            </ul>
+            
+            <h2>8. Children's Privacy</h2>
+            <ul>
+                <li><strong>Age Requirement</strong>: Moro is not intended for children under 13</li>
+                <li><strong>No Collection</strong>: We do not knowingly collect personal information from children under 13</li>
+                <li><strong>Parental Rights</strong>: Parents can contact us to delete their child's information</li>
+                <li><strong>Compliance</strong>: We comply with applicable children's privacy laws</li>
+            </ul>
+            
+            <h2>9. International Data Transfers</h2>
+            <ul>
+                <li><strong>Firebase Services</strong>: Your data may be processed on Google's servers worldwide</li>
+                <li><strong>Data Protection</strong>: We ensure appropriate safeguards for international transfers</li>
+                <li><strong>User Rights</strong>: Your privacy rights are protected regardless of data location</li>
+                <li><strong>Compliance</strong>: We comply with applicable data protection laws</li>
+            </ul>
+            
+            <h2>10. Changes to This Privacy Policy</h2>
+            
+            <h3>Policy Updates</h3>
+            <ul>
+                <li><strong>Notification</strong>: We will notify you of significant changes through the app</li>
+                <li><strong>Review</strong>: We encourage you to review this policy periodically</li>
+                <li><strong>Acceptance</strong>: Continued use constitutes acceptance of updated policy</li>
+                <li><strong>Effective Date</strong>: Changes become effective upon posting</li>
+            </ul>
+            
+            <h3>Your Rights</h3>
+            <ul>
+                <li><strong>Objection</strong>: You can object to changes by deleting your account</li>
+                <li><strong>Contact</strong>: Contact us with questions about policy changes</li>
+            </ul>
+            
+            <h2>11. Contact Information</h2>
+            
+            <div class="contact-info">
+                <h3>Privacy Questions</h3>
+                <p>For questions about this Privacy Policy or your data rights, contact us at:</p>
+                <p><strong>Email:</strong> <a href="mailto:sirohi.ishan@icloud.com">sirohi.ishan@icloud.com</a></p>
+                
+                <h3>Response Time</h3>
+                <p>We will respond to your privacy inquiries.</p>
+            </div>
+            
+            <h2>12. Compliance and Legal</h2>
+            
+            <h3>Applicable Laws</h3>
+            <p>This Privacy Policy complies with applicable data protection laws and regulations.</p>
+            
+            <h3>Your Rights</h3>
+            <p>You have the right to:</p>
+            <ul>
+                <li>Access your personal data</li>
+                <li>Correct inaccurate data</li>
+                <li>Delete your personal data</li>
+                <li>Withdraw consent (by deleting your account and all associated data)</li>
+            </ul>
+            
+            <h3>Complaints</h3>
+            <p>If you have concerns about our data practices, you can contact us or the relevant data protection authorities.</p>
+        </div>
+    </div>
+</body>
+</html>

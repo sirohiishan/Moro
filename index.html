@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moro - Legal Documents</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter';
+            line-height: 1.6;
+            color: #1B1B1B;
+            background: linear-gradient(135deg, #7998FF 0%, #FF7979 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #FFFFFF;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #7998FF 0%, #FF7979 100%);
+            color: #FFFFFF;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .header p {
+            font-size: 1.1rem;
+            color: #ffffff;
+            font-weight: 500;
+        }
+        
+        .content {
+            padding: 40px 30px;
+        }
+        
+        .documents {
+            display: grid;
+            gap: 30px;
+        }
+        
+        .document-card {
+            background: #FFFFFF;
+            border-radius: 15px;
+            padding: 30px;
+            border: 2px solid #8F8F8F;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        .document-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            border-color: #7998FF;
+        }
+        
+        .document-card h2 {
+            color: #7998FF;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .document-card p {
+            color: #616161;
+            margin-bottom: 20px;
+        }
+        
+        .document-card .meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.9rem;
+            color: #8F8F8F;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #7998FF;
+            color: #FFFFFF;
+            padding: 12px 24px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            background: #FF7979;
+            transform: translateY(-2px);
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px;
+            background: #FFFFFF;
+            color: #616161;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 30px 20px;
+            }
+            
+            .document-card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Moro</h1>
+            <p>Legal Documents & Privacy Information</p>
+        </div>
+        
+        <div class="content">
+            <div class="documents">
+                <a href="privacy-policy.html" class="document-card">
+                    <h2>Privacy Policy</h2>
+                    <p>Learn how we collect, use, and protect your personal information when you use the Moro productivity app.</p>
+                    <div class="meta">
+                        <span>Last updated: September 2025</span>
+                        <span class="btn">Read Policy</span>
+                    </div>
+                </a>
+                
+                <a href="terms-and-conditions.html" class="document-card">
+                    <h2>Terms & Conditions</h2>
+                    <p>Understand the terms of service and usage guidelines for the Moro productivity application.</p>
+                    <div class="meta">
+                        <span>Last updated: September 2025</span>
+                        <span class="btn">Read Terms</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>2025 Moro. All rights reserved.</p>
+            <p>For questions about these documents, contact us at <a href="mailto:sirohi.ishan@icloud.com">sirohi.ishan@icloud.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
